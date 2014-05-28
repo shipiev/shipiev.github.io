@@ -1,0 +1,18 @@
+<script src="/scripts/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/scripts/jquery.glob.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/scripts/globinfo/jquery.glob.ru-RU.min.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript" language="javascript" charset="utf-8">
+    //<![CDATA[
+    $(function() {
+        $.preferCulture("ru-RU");
+
+        $('.created').each(function() {
+            var epoch = $(this).attr("data-created") || (new Date().getTime()/1000);
+            var format = $(this).attr('data-format') || 'f';
+
+            $(this).html( $.format( new Date(epoch*1000), format ) );
+        })
+    });
+    //]]>
+</script>

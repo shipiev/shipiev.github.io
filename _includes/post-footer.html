@@ -1,0 +1,11 @@
+<div class="category">
+    Категория: {% if page.categories != empty %}<a href="/categories/{{ page.categories | first | downcase | uri_escape }}/">{{ page.categories | first }}</a> |{% endif %}
+    <a href="/categories/">Все категории</a>
+</div>
+{% if page.tags != empty %}
+<div class="tags">
+    <div class="tag">Ключевые слова:</div>{% for tag in page.tags %}<div class="tag"><a href="/tags/{{ tag | downcase | uri_escape }}/">{{ tag }}</a></div>{% endfor %}
+    <div class="tag">| <a href="/tags/">Все ключевые слова</a></div>
+    <div class="clear"></div>
+</div>
+{% endif %}

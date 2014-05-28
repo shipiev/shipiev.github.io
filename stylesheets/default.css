@@ -1,0 +1,159 @@
+body, html {
+  color: #333333;
+  font-family: "Tahoma", "Corbel", "Arial", "Helvetica", sans-serif;
+  font-size: 100%;
+  line-height: 1.125em;
+}
+ul {
+  list-style-position: outside;
+  margin-left: 15px;
+}
+ul li:before {
+  content: "\00BB \0020";
+}
+p, li {
+  font-size: 0.90em;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+}
+li {
+  padding-bottom: 10px;
+}
+em {
+  font-style: italic;
+}
+code, samp, kbd {
+  color: #336699;
+  letter-spacing: 0;
+}
+strong, b {
+  font-weight: bold;
+}
+.category, .tags {
+  margin-top: 10px;
+}
+.highlight {
+  background-color: #272822;
+  border: 1px solid #dddddd;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 0.90em;
+}
+.highlight pre {
+  line-height: 1.2em;
+  overflow: auto;
+  overflow: scroll;
+  white-space: pre;
+}
+.lineno {
+  padding: 3px;
+  color: #5B5C58;
+}
+#wrapper {
+  margin: 40px auto 0 auto;
+  width: 800px;
+}
+#header {
+  margin-bottom: 45px;
+  text-align: center;
+}
+#header .created {
+  font-family: "Yanone Kaffeesatz", serif;
+  font-size: 1.3em;
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+.comments {
+  margin-top: 65px;
+}
+#header .author, #header .author a {
+  color: black;
+  font-family: "Arial", "Helvetica", sans-serif;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+h1, h2, h3, .title {
+  color: black;
+  font-family: "PT Sans", "American Typewriter", "Courier New", "Courier", serif;
+  font-size: 2.00em;
+  font-weight: normal;
+}
+h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+h3 {
+  font-size: 1.2em;
+  font-style: italic;
+}
+#header .title {
+  font-family: "Yanone Kaffeesatz", serif;
+  font-size: 46px;
+  letter-spacing: 0.02em;
+  word-spacing: 0.026em;
+}
+.post .title {
+  font-family: "PT Sans", sans-serif;
+}
+.post .created {
+  font-family: "Yanone Kaffeesatz", serif;
+  font-size: 1.2em;
+}
+.clear { clear : both; }
+.post .tags .tag, .post .category {
+  font-size: 0.9em;
+  font-style: italic;
+}
+.post .tag {
+  float: left;
+  margin-right: 5px;
+}
+.index .post .title,
+.index .category .title,
+.index .tag .title
+{
+  font-size: 1.1em;
+  letter-spacing: .05em;
+}
+.index .post .title a,
+.index .category .title a,
+.index .tag .title a
+{
+  color: black;
+  text-decoration: none;
+}
+.index .post,
+.index .category,
+.index .tag
+{
+  margin-bottom: 10px;
+}
+.index .post .created,
+.index .category .created,
+.index .tag .created
+{
+  font-weight: bold;
+}
+/* Disqus */
+#dsq-comments-title, .dsq-options {
+  display: none !important;
+}
+.dsq-missing-permissions {
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
+}
+#dsq-form-area {
+  margin-bottom: 25px !important;
+}
+#dsq-new-post h3 {
+  font-family: "Tahoma", "Corbel", "Arial", "Helvetica", sans-serif !important;
+  font-size: 1.6em !important;
+  font-weight: normal !important;
+  letter-spacing: -.1em !important;
+  margin-bottom: 15px !important;
+}
+.dsq-comment-message {
+  font-size: 1.1em !important;
+  line-height: 1.25em;
+}
