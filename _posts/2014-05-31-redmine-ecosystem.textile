@@ -1,0 +1,29 @@
+---
+layout: post
+title: "Экосистема Redmine"
+published: true
+created: 1401543656
+tags: [redmine, ecosystem, links]
+categories: ["Redmine Ecosystem"]
+---
+Redmine -- зрелый программный проект и вокруг него уже сформировалась собственная обширная экосистема, которая постоянно развивается. Есть даже несколько групп отечественных разработчиков (например, RM+ и RedmineCRM), которые зарабатывают на разработке и продаже собственных Redmine-плагинов.
+
+* Разработчики модулей
+** "RedmineCRM":http://redminecrm.com/
+** "RM+":http://rmplus.pro/
+** "R-Labs":http://www.r-labs.org/
+** "EasyRedmine":http://www.easyredmine.com/ru/plaginy
+* Дочерние проекты (так называемые forks)
+** "ChiliProject":https://www.chiliproject.org/
+** "EasyRedmine":http://www.easyredmine.com/ru/
+* SaaS (Redmine не как продукт, а как сервис, с ежемесячной абонентской платой)
+** "Planio":https://plan.io/
+** "Bitnami Cloud":https://bitnami.com/stack/redmine/cloud
+** "EasyRedmine":http://www.easyredmine.com/ru/
+** "RM+":http://rmplus.pro/
+** "SaaS Secure":http://www.saas-secure.com/git-hosting/
+* Приложения для мобильных устройств
+** "RedmineApp":http://getredmineapp.com/ (iOS)
+* Виртуальные машины и инсталяторы
+** "Bitnami":https://bitnami.com/stack/redmine/
+

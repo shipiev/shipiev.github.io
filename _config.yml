@@ -3,6 +3,6 @@ base: http://www.redmine-plugins.ru
 pygments: true
 permalink: /blog/:title/
 exclude: [Rakefile, jekyll.pid]
-author: Роман "Rubynovich" Шипиев
+author: Роман «Rubynovich» Шипиев
 author_email: author@redmine-plugins.ru
-title: Вакцинация против синдрома ИБД
+title: redmine plugins

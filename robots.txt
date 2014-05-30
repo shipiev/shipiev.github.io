@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /images
+Disallow: /scripts
+Disallow: /stylesheets
+Sitemap: http://www.redmine-plugins.ru/sitemap.xml

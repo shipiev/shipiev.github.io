@@ -48,7 +48,7 @@ task :categories do
     File.open("#{path}/index.textile", 'w+') do |file|
       file.puts "---"
       file.puts "layout: default"
-      file.puts "title: '{ Категория: #{category} }'"
+      file.puts "title: 'Категория: #{category}'"
       file.puts "---", ""
       file.puts '<div class="index posts">'
 
@@ -74,7 +74,7 @@ task :categories do
   File.open("#{@categories_dir}/index.html", "w+") do |file|
     file.puts "---"
     file.puts "layout: default"
-    file.puts "title: '{ Категории }'"
+    file.puts "title: 'Категории'"
     file.puts "---", ""
 
     file.puts '<div class="index categories">'
@@ -118,7 +118,7 @@ task :tags do
     File.open("#{path}/index.html", 'w+') do |file|
       file.puts "---"
       file.puts "layout: default"
-      file.puts "title: '{ Ключевое слово: #{tag} }'"
+      file.puts "title: 'Ключевое слово: #{tag}'"
       file.puts "---", ""
       file.puts '<div class="index posts">'
 
@@ -144,7 +144,7 @@ task :tags do
   File.open("#{@tags_dir}/index.html", "w+") do |file|
     file.puts "---"
     file.puts "layout: default"
-    file.puts "title: '{ Ключевые слова }'"
+    file.puts "title: 'Ключевые слова'"
     file.puts "---", ""
 
     file.puts '<div class="index tags">'
