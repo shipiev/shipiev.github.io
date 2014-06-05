@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru-ru">
     {% include head.html %}
     <body>
+        {% include site-name.html %}
         <div id="wrapper">
             {% include body-header.html %}
             <div class="post">
@@ -10,7 +11,7 @@
                 </div>
 
                 {% include post-footer.html %}
-                {% include post-comments.html %}
+                {{ include post-comments.html }}
             </div>
             <div id="footer"></div>
         </div>

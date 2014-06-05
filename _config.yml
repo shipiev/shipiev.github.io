@@ -5,4 +5,5 @@ permalink: /blog/:title/
 exclude: [Rakefile, jekyll.pid]
 author: Роман «Rubynovich» Шипиев
 author_email: author@redmine-plugins.ru
-title: redmine plugins
+title: "redmine-plugins.ru"
+description: 'Профессиональная разработка плагинов для Redmine'

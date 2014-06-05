@@ -1,3 +1,8 @@
+<div id="footer">
+    <span class="created" data-created="{{ page.created }}">{{ page.created | date: "%Y-%m-%dT%H:%M:%S%z" }}</span>,
+    <span class="author"><a href="mailto:{{ site.author_email }}">{{ site.author }}</a></span>
+</div>
+
 <div class="category">
     Категория: {% if page.categories != empty %}<a href="/categories/{{ page.categories | first | downcase | uri_escape }}/">{{ page.categories | first }}</a> |{% endif %}
     <a href="/categories/">Все категории</a>

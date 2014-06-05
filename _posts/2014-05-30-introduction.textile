@@ -4,7 +4,7 @@ title: "Вводная"
 published: true
 created: 1401456015
 tags: [redmine, plugins, about_me]
-categories: [About me]
+categories: ["About me"]
 ---
 h2. О Redmine
 
